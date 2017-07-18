@@ -79,19 +79,3 @@ violets are <span style="color:blue">blue</span>.
 
 
 
-## Slide with Bullets
-
-
-
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
-
