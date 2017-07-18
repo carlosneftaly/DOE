@@ -1,41 +1,43 @@
-
 ---
-title: "DiseÃ±o de Experimentos"
-subtitle: 'Escuela de MicrobiologÃ­a - Universidad de Antioquia'
+title: "Diseño de Experimentos"
+subtitle: 'Escuela de Microbiología - Universidad de Antioquia'
 author: "Carlos Neftaly Lozano"
-
-output: 
-  ioslides_presentation:
-  css: doe2.css
-  header-includes:
-  - \usepackage{color}
-    
+framework   : io2012        
+highlighter : highlight.js 
+hitheme     : magula
+widgets     : [mathjax, quiz, bootstrap] 
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+github      :
+user        : carlosneftaly
+repo        : DOE
+license     : by-nc-sa    
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## 
+## Reglas
 
 ```{r, echo=FALSE,fig.align='center'}
    knitr::include_graphics('./figure/In-1.png')
 ```
 
-## Libros guÃ­a
+## Libros guía
 <div class="columns-2">
 ```{r, echo=FALSE,fig.align='left'}
    knitr::include_graphics('./figure/HG.jpg')
 ```
 
- - **AnÃ¡lisis y DiseÃ±o de experimentos**
+ - **Análisis y Diseño de experimentos**
  - Biblioteca UdeA: 658.5/G984
  
 </div>
 
 
 
-## Libros guÃ­a
+## Libros guía
 <div class="columns-2">
 ```{r, echo=FALSE,fig.align='left'}
    knitr::include_graphics('./figure/gote.jpg')
@@ -46,7 +48,7 @@ knitr::opts_chunk$set(echo = FALSE)
  
 </div>
 
-## Libros guÃ­a
+## Libros guía
 <div class="columns-2">
 ```{r, echo=FALSE,fig.align='left'}
    knitr::include_graphics('./figure/EE.jpg')
@@ -59,7 +61,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-## EvaluaciÃ³n
+## Evaluación
 
 __3 Examenes parciales: 65%__
 
